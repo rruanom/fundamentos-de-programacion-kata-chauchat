@@ -8,6 +8,9 @@ function chauchat(carga){
             return "Illo, me he quedao pillá!"
         } else {
             console.log(cargador[i])
+            if((i + 1) % 3 == 0){
+                console.log(" ")
+            }
         }
     }
 };
